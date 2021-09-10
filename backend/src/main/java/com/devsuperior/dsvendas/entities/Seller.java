@@ -18,7 +18,7 @@ public class Seller {
 	private Long id;
 	private String name;
 	
-	@OneToMany(mappedBy = "saller")
+	@OneToMany(mappedBy = "seller")
 	private List<Sale> sales = new ArrayList<>();
 	
 	
